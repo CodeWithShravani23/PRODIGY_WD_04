@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+</head>
+<body>
+    <header id="header"><nav>
+        <div class="left"><b class="purple ">S</b>hravani</div>
+        <div class="right">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About me</a> </li>
+                <li><a href="#projects">Services</a> </li>
+                <li><a href="#portfolio">Projects</a></li>
+               <li><a href="#contact">Contact me</a></li>             
+            </ul>
+        </div>
+    </nav></header>
+    <main>
+        <section class="firstSection">
+       <div class="leftSection">
+        Hi, My name is <span class="purplee">Shravani</span>
+        <div>and i am a passionate
+            <span id="element"></span>
+            <div class="resume">
+                <span>
+                    <button>Download Resume</button>
+                    <button><a href="https://github.com/CodeWithShravani23" class="github">Github Link</a></button>
+                </span>
+            </div>
+        </div>
+       </div> 
+       <div class="rightSection">
+        <img src="img2.png" alt="profilePic">
+       </div>
+        </section>
+        <hr>
+    
+<!-- ---------------------------About------------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                      <img src="img4.jpg" alt="myimg" id="myimg">
+                    </div>
+                    <div class="col-2">
+                        <h1 class="title">About Me</h1>
+                        <p>Hello! I'm Shravani, a passionate and dedicated web developer with a knack for creating dynamic and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I bring a keen eye for detail and a commitment to delivering high-quality code. Over the years, I've honed my skills in front-end and back-end development, working with frameworks like React, Angular, and Node.js to build responsive and efficient web applications.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>   
+                            <div class="tab-contains active-tab" id="skills">
+                                <ul>
+                                    <li><span>
+                                        <img src="webdev.png" style="border-radius:40%">
+                                        Web Development</span></li>
+                                        <!-- <li><span>
+                                            <img src="https://e7.pngegg.com/pngimages/78/465/png-clipart-data-structures-and-algorithms-algorithms-data-structures-programs-computer-science-others-miscellaneous-computer-science-thumbnail.png">
+                                            Data structures and Algorithm</span></li> -->
+                                    <li><span>
+                                        <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png">
+                                        HTML </span></li>
+                                    <li><span>
+                                        <img src="CSS3_logo.svg.png">
+                                        CSS</span></li>
+                                    <li><span>
+                                        <img src="js.webp">
+                                        JavaScript</span></li>
+
+                                        <li>
+                                            <span>
+                                                <img src="https://www.freepnglogos.com/uploads/new-balance-png-logo/js-club-new-balance-png-logo-29.png">
+                                                NodeJs
+                                            </span>
+                                        </li>
+                                    <li>
+                                        <span><img src="Git_icon.svg.png">
+                                        Git
+                                    </span></li>
+                                    <li><span>
+                                        <img src="github.png" style="border-radius: 50%;">
+                                        Github
+                                    </span></li>
+
+
+                                </ul>
+
+                            </div>
+                            <div class="tab-contains" id="education">
+                                <ul>
+                                    
+                                    <li><span class="span">2024</span><br>web development at Apna college<br>DSA at Apna college</li>
+                                    <li><span class="span">2022 to 2026</span><br>B.Tech from Bharati vidyapeeth Kolhapur</li>
+                                    <li><span class="span">2022</span><br>HSC at Shivraj Science Academy</li>
+
+                                </ul>
+                            </div>
+                            
+                
+                    </div>
+                </div>
+            </div>
+        </div><hr>
+
+
+        <!-- --------------projects--------------- -->
+         <div id="projects">
+            <div class="container">
+                <h1 class="title" style="margin-left:80px ;">My services</h1>
+                <div class="project-list">
+                    <div>
+                        <img src="code_blocks_48dp_FILL0_wght400_GRAD0_opsz48.svg" style="font-size:50px;">
+                        <h2>Fontend Development</h2>
+                        <p style="opacity: 0.7;">I specialize in front-end development, crafting responsive and intuitive user interfaces with HTML, CSS, and JavaScript.</p>
+                    </div>
+                    <div>
+                        <img src="terminal_48dp_FILL0_wght400_GRAD0_opsz48.svg">
+                        <h2>Backend Development</h2>
+                        <p style="opacity: 0.7;">On the back-end, I work with technologies like Node.js and Express to build robust and scalable server-side applications. </p>
+                    </div>
+                    <div>
+                        <img src="videocam_48dp_FILL0_wght400_GRAD0_opsz48.svg">
+                        <h2>Video Editing</h2>
+                        <p style="opacity: 0.7;">In addition to web development, I have a keen interest in video editing. I use software such as Adobe Premiere Pro to create engaging and high-quality video content</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <hr>
+<!-- --------------------work------------------ -->
+         <div id="portfolio">
+            <div class="container">
+                <h1 class="title" style="margin-left:80px ;">My Projects</h1>
+                 <div class="work-list">
+                    <div class="work"><img src="spotify.jpg" class="pic">
+                        <div class="layer">
+                            <h3>Spotify Clone</h3>
+                            <p>The Responsive design of spotify made using html,CSS and JavaScript</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    
+                    </div>
+                    <div class="work"><img src="https://i.ytimg.com/vi/Tgat3-prVv4/maxresdefault.jpg" class="pic">
+                        <div class="layer">
+                            <h3>Netflix Clone</h3>
+                            <p>The Responsive design of spotify made using html and CSS </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWY0e_Jd8878rfjb8n6tgueLF7FFsrfWS0Snlir6xNzSqQfjosTdBNIZxrbpL7S4OachA&usqp=CAU" class="pic">
+                        <div class="layer">
+                            <h3>Tic Tac Toe Game</h3>
+                            <p>A fun interactive Tic tac toe game made using html,CSS and JavaScript</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                 </div>
+                 <a href="#" class="btn">See More</a>
+            </div>
+         </div>
+         <hr>
+         <!-- -----------------------contact------------------- -->
+          <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="title" style="margin-left:80px ;">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>meetpatilshravani23@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>902163XXXX</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="name" placeholder="your name" required>
+                            <input type="text" name="email" placeholder="your email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy;. Made with 	&hearts; by Shravani</p>
+
+            </div>
+          </div>
+          
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Video Editor','Web Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
